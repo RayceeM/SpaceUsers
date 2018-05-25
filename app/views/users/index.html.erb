@@ -1,0 +1,13 @@
+<%= image_tag('logo.png', class:'logo') %>
+<h1>Welcome to Swahilibox User Space</h1>
+<h3>Members</h3>
+<% @all_users.each do |user| %>
+<div class ="users">
+	<h2><%= user.Name %></h2>
+	<%= image_tag(user.Add_image, class: 'list_image')%>
+</div>
+<h4><%= user.Occupation %></h4>
+<% end %>
+<p><%= link_to "Join Swahilibox",new_user_path %></p>
+<p><%= paginate @all_users %></p>
+

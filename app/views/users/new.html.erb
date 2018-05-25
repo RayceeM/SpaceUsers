@@ -1,0 +1,11 @@
+<h1>Welcome to SwahiliBox User Space</h1>
+<h3>Add your details below</h3>
+<%= simple_form_for @user do |form| %>
+<%= form.input :Name, label: "Enter your Full Name" %>
+<%= form.input :Phone_number, label: "Enter your Phone number" %>
+<%= form.input :Email_address, label: "Enter your Email address" %>
+<%= form.input :Occupation,label: "What is your Occupation" %>
+<%= form.input :Level_of_experience,label: "Your Level of experience" %>
+<%= form.input :Add_image, label: "Enter your image url" %>
+<%= form.button :submit %>
+<% end %>

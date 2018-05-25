@@ -1,0 +1,38 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+users{
+	
+}
+.logo{
+	padding-bottom:0;
+}
+h1{
+color:#ff9100;
+ font-size: 50px;
+ text-align:center;
+ font-family: Garamond;
+}
+h3{
+	font-size: 30px;
+	font-style: bold;
+	text-align:center;
+	font-family:Garamond;
+}
+h2{
+	font-family:Trebuchet MS;
+}
+.list_image{
+  width: 200px;
+  height: 250px;
+}
+form{
+	.input{
+	padding-top:20px;
+	padding-left:10px;
+	}
+	label{
+	display:block;
+	}
+}
